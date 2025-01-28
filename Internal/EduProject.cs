@@ -48,7 +48,7 @@ namespace EduEngineLauncher
                 return false;
             }
 
-            _enginePathView.LaunchEngine($"{assetsFolder} {dllPath}");
+            _enginePathView.LaunchEngine($"\"{assetsFolder}\" \"{dllPath}\"");
 
             return true;
         }
